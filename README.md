@@ -2,7 +2,7 @@
 
 A clean, modern and lightweight personal portfolio built with **React**, **Vite** and **Tailwind CSS**.
 
-![Portfolio](src/assets/car.jpg)
+![Portfolio](src/assets/projects/flowtime.svg)
 
 ## Features
 
