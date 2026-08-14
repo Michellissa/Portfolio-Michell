@@ -81,6 +81,18 @@ export const technologies = [
 
 export const experiences = [
   {
+    title: "Developer Intern",
+    company_name: "Ekofusion",
+    icon: praktik,
+    date: "Jan 2026 - May 2026",
+    points: [
+      "Worked with WordPress, Magento and OpenCart for e-commerce and web solutions.",
+      "Automated processes with robot-based automation.",
+      "Built a real-time info site (bus/train arrivals, school lunch, sick teachers) using React and REST APIs.",
+      "Developed the Mind Monitor EEG project in Python.",
+    ],
+  },
+  {
     title: "Fullstack Developer",
     company_name: "Frisörgrossen",
     icon: praktik,
