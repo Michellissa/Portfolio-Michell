@@ -5,7 +5,7 @@ const Testimonial = () => {
   const testimonial = testimonials[0];
 
   return (
-    <section id="testimonial" className="bg-white border-y border-slate-100">
+    <section id="testimonial" className="bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800">
       <div className="section-container">
         <Reveal>
           <p className="section-label">Recommendation</p>
@@ -13,7 +13,7 @@ const Testimonial = () => {
         </Reveal>
 
         <Reveal delay={150}>
-          <div className="mt-12 bg-gradient-to-br from-indigo-50 to-emerald-50 rounded-2xl p-8 sm:p-10 border border-slate-100 relative">
+          <div className="mt-12 bg-gradient-to-br from-indigo-50 to-emerald-50 dark:from-slate-800 dark:to-slate-800 rounded-2xl p-8 sm:p-10 border border-slate-100 dark:border-slate-700 relative">
             <svg
               className="w-10 h-10 text-accent/30 absolute top-6 left-8"
               fill="currentColor"
@@ -22,7 +22,7 @@ const Testimonial = () => {
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
             </svg>
 
-            <blockquote className="mt-4 text-slate-700 leading-relaxed text-base sm:text-lg">
+            <blockquote className="mt-4 text-slate-700 dark:text-slate-300 leading-relaxed text-base sm:text-lg">
               {testimonial.testimonial}
             </blockquote>
 
@@ -43,8 +43,8 @@ const Testimonial = () => {
                 </div>
               )}
               <div>
-                <p className="text-primary font-semibold">{testimonial.name}</p>
-                <p className="text-sm text-slate-500">
+                <p className="text-primary dark:text-white font-semibold">{testimonial.name}</p>
+                <p className="text-sm text-slate-500 dark:text-slate-400">
                   {testimonial.designation} · {testimonial.company}
                 </p>
               </div>

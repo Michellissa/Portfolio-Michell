@@ -35,6 +35,14 @@ body {
   @apply bg-bg-light text-slate-600 font-sans;
 }
 
+.dark body {
+  @apply bg-slate-950 text-slate-400;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
 @layer components {
   .section-container {
     @apply max-w-6xl mx-auto px-6 sm:px-8 py-24;
@@ -45,7 +53,7 @@ body {
   }
 
   .section-title {
-    @apply mt-2 text-3xl sm:text-4xl font-bold text-primary;
+    @apply mt-2 text-3xl sm:text-4xl font-bold text-primary dark:text-white;
   }
 
   .btn-primary {
@@ -53,6 +61,6 @@ body {
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-accent hover:text-accent text-primary font-semibold px-7 py-3 rounded-lg transition-colors duration-200;
+    @apply inline-flex items-center justify-center gap-2 border border-slate-300 dark:border-slate-700 hover:border-accent hover:text-accent text-primary dark:text-slate-100 font-semibold px-7 py-3 rounded-lg transition-colors duration-200;
   }
 }

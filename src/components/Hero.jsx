@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-emerald-50" />
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-emerald-50 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900" />
       <div className="absolute -top-32 -right-32 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl" />
 
@@ -21,26 +21,26 @@ const Hero = () => {
         </Reveal>
 
         <Reveal direction="up">
-          <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur border border-slate-200 rounded-full px-4 py-1.5 text-sm text-slate-600 shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-white/80 dark:bg-slate-900/80 backdrop-blur border border-slate-200 dark:border-slate-700 rounded-full px-4 py-1.5 text-sm text-slate-600 dark:text-slate-300 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             Available for internships &amp; freelance work
           </div>
         </Reveal>
 
         <Reveal direction="left" delay={150}>
-          <h1 className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-extrabold text-primary leading-tight">
+          <h1 className="mt-6 text-4xl sm:text-6xl lg:text-7xl font-extrabold text-primary dark:text-white leading-tight">
             Hi, I'm <span className="text-accent">Michell</span>
           </h1>
         </Reveal>
 
         <Reveal direction="left" delay={250}>
-          <h2 className="mt-3 text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-700">
+          <h2 className="mt-3 text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-700 dark:text-slate-200">
             Web Developer &amp; Full-Stack Enthusiast
           </h2>
         </Reveal>
 
         <Reveal delay={350}>
-          <p className="mt-6 max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed">
+          <p className="mt-6 max-w-2xl text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
             I build modern, responsive web applications with a focus on user experience
             and clean code. Graduate of NTI Södertörn (Teknik 4) and currently
             studying automation at Kunskapsgruppen.
@@ -74,19 +74,19 @@ const Hero = () => {
 
         <Reveal delay={550}>
           <div className="mt-10 flex items-center gap-4">
-            <span className="text-sm text-slate-500 font-medium">Find me on</span>
+            <span className="text-sm text-slate-500 dark:text-slate-400 font-medium">Find me on</span>
           <a
             href={socials.github}
             target="_blank"
             rel="noreferrer"
-            className="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center hover:border-accent hover:text-accent transition-colors shadow-sm"
+            className="w-10 h-10 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg flex items-center justify-center hover:border-accent hover:text-accent transition-colors shadow-sm"
             aria-label="GitHub"
           >
             <img src={github} alt="GitHub" className="w-5 h-5 invert" />
           </a>
           <a
             href={`mailto:${socials.email}`}
-            className="w-10 h-10 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-600 hover:border-accent hover:text-accent transition-colors shadow-sm"
+            className="w-10 h-10 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg flex items-center justify-center text-slate-600 dark:text-slate-300 hover:border-accent hover:text-accent transition-colors shadow-sm"
             aria-label="Email"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

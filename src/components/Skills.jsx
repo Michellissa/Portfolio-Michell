@@ -13,7 +13,7 @@ const Skills = () => {
         <div className="mt-12 grid grid-cols-3 xs:grid-cols-4 sm:grid-cols-5 md:grid-cols-7 gap-4">
           {technologies.map((tech, i) => (
             <Reveal key={tech.name} delay={(i % 7) * 80} direction="up">
-              <div className="group bg-white border border-slate-100 rounded-xl p-4 flex flex-col items-center gap-2 hover:border-accent/40 hover:shadow-card transition-all duration-300">
+              <div className="group bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-xl p-4 flex flex-col items-center gap-2 hover:border-accent/40 hover:shadow-card transition-all duration-300">
                 {tech.icon ? (
                   <img
                     src={tech.icon}
@@ -27,7 +27,7 @@ const Skills = () => {
                     {tech.initials}
                   </span>
                 )}
-                <span className="text-xs text-slate-600 font-medium text-center leading-tight">
+                <span className="text-xs text-slate-600 dark:text-slate-400 font-medium text-center leading-tight">
                   {tech.name}
                 </span>
               </div>

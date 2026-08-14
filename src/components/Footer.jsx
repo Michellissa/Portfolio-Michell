@@ -3,7 +3,7 @@ import { socials } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-slate-400">
+    <footer className="bg-primary dark:bg-slate-950 text-slate-400">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
           <p className="text-white font-semibold text-lg">

@@ -62,7 +62,7 @@ const Contact = () => {
         <Reveal>
           <p className="section-label">Get in touch</p>
           <h2 className="section-title">Contact me.</h2>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed">
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed dark:text-slate-300">
             Have a project in mind, or just want to say hi? My inbox is always
             open — I'll do my best to get back to you as soon as possible.
           </p>
@@ -71,8 +71,8 @@ const Contact = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-5 gap-10">
           <Reveal direction="right" className="lg:col-span-2">
             <div className="space-y-6">
-              <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-card">
-                <h3 className="text-primary font-semibold">Email</h3>
+              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
+                <h3 className="text-primary dark:text-white font-semibold">Email</h3>
                 <a
                   href={`mailto:${socials.email}`}
                   className="mt-2 block text-accent font-medium hover:underline break-all"
@@ -81,8 +81,8 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-card">
-                <h3 className="text-primary font-semibold">Phone</h3>
+              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
+                <h3 className="text-primary dark:text-white font-semibold">Phone</h3>
                 <a
                   href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}
                   className="mt-2 block text-accent font-medium hover:underline"
@@ -91,8 +91,8 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-card">
-                <h3 className="text-primary font-semibold">GitHub</h3>
+              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
+                <h3 className="text-primary dark:text-white font-semibold">GitHub</h3>
                 <a
                   href={socials.github}
                   target="_blank"
@@ -103,9 +103,9 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="bg-white border border-slate-100 rounded-2xl p-6 shadow-card">
-                <h3 className="text-primary font-semibold">Currently</h3>
-                <p className="mt-2 text-slate-600">
+              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
+                <h3 className="text-primary dark:text-white font-semibold">Currently</h3>
+                <p className="mt-2 text-slate-600 dark:text-slate-400">
                   Studying automation at Kunskapsgruppen after graduating from NTI
                   Södertörn (Teknik 4).
                 </p>
@@ -131,35 +131,35 @@ const Contact = () => {
           <Reveal direction="left" delay={150} className="lg:col-span-3">
             <form
               onSubmit={handleSubmit}
-              className="bg-white border border-slate-100 rounded-2xl p-6 sm:p-8 shadow-card space-y-6"
+              className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 sm:p-8 shadow-card space-y-6"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <label className="flex flex-col">
-                  <span className="text-primary font-medium mb-2">Name</span>
+                  <span className="text-primary dark:text-white font-medium mb-2">Name</span>
                   <input
                     type="text"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
                     placeholder="What's your name?"
-                    className="bg-bg-light border border-slate-200 rounded-lg px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent placeholder:text-slate-400"
+                    className="bg-bg-light dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent placeholder:text-slate-400 dark:placeholder:text-slate-500"
                   />
                 </label>
                 <label className="flex flex-col">
-                  <span className="text-primary font-medium mb-2">Email</span>
+                  <span className="text-primary dark:text-white font-medium mb-2">Email</span>
                   <input
                     type="email"
                     name="email"
                     value={form.email}
                     onChange={handleChange}
                     placeholder="you@example.com"
-                    className="bg-bg-light border border-slate-200 rounded-lg px-4 py-3 text-slate-700 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent placeholder:text-slate-400"
+                    className="bg-bg-light dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 text-slate-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent placeholder:text-slate-400 dark:placeholder:text-slate-500"
                   />
                 </label>
               </div>
 
               <label className="flex flex-col">
-                <span className="text-primary font-medium mb-2">Message</span>
+                <span className="text-primary dark:text-white font-medium mb-2">Message</span>
                 <textarea
                   rows={6}
                   name="message"
