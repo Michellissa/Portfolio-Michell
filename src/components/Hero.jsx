@@ -1,4 +1,4 @@
-import { github } from "../assets";
+import { github, profile } from "../assets";
 import { socials } from "../constants";
 import Reveal from "./Reveal";
 
@@ -10,6 +10,16 @@ const Hero = () => {
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto px-6 sm:px-8 py-32 w-full">
+        <Reveal direction="up">
+          <div className="lg:hidden flex justify-center mb-8">
+            <img
+              src={profile}
+              alt="Michell Issa"
+              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-full border-4 border-white shadow-xl"
+            />
+          </div>
+        </Reveal>
+
         <Reveal direction="up">
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur border border-slate-200 rounded-full px-4 py-1.5 text-sm text-slate-600 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -90,6 +100,19 @@ const Hero = () => {
           </div>
         </Reveal>
       </div>
+
+      <Reveal direction="left" delay={200}>
+        <div className="hidden lg:flex absolute right-8 xl:right-16 top-1/2 -translate-y-1/2 flex-col items-center gap-4">
+          <div className="relative">
+            <div className="absolute inset-0 bg-accent/20 rounded-full blur-2xl scale-110" />
+            <img
+              src={profile}
+              alt="Michell Issa"
+              className="relative w-72 xl:w-80 h-72 xl:h-80 object-cover rounded-full border-4 border-white shadow-2xl"
+            />
+          </div>
+        </div>
+      </Reveal>
 
       <a
         href="#about"
