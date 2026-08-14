@@ -1,4 +1,4 @@
-import { github, logo } from "../assets";
+import { github } from "../assets";
 import { socials } from "../constants";
 
 const Footer = () => {
@@ -6,8 +6,10 @@ const Footer = () => {
     <footer className="bg-primary text-slate-400">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
-          <img src={logo} alt="Michell logo" className="h-10 w-auto" />
-          <p className="mt-3 text-sm">Web Developer &amp; Full-Stack Enthusiast</p>
+          <p className="text-white font-semibold text-lg">
+            Michell<span className="text-accent-light">.dev</span>
+          </p>
+          <p className="mt-1 text-sm">Web Developer &amp; Full-Stack Enthusiast</p>
         </div>
 
         <div className="flex items-center gap-4">

@@ -20,6 +20,7 @@
   praktik,
   kod,
   NET,
+  logo,
   car,
   nice,
   lager,
@@ -83,7 +84,7 @@ export const experiences = [
   {
     title: "Developer Intern",
     company_name: "Ekofusion",
-    icon: praktik,
+    icon: logo,
     date: "Jan 2026 - May 2026",
     points: [
       "Worked with WordPress, Magento and OpenCart for e-commerce and web solutions.",
