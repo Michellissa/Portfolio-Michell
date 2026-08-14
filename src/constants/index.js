@@ -24,7 +24,6 @@
   eeg,
   liquid,
   flowtime,
-  infosite,
 } from "../assets";
 
 export const navLinks = [
@@ -186,27 +185,16 @@ export const projects = [
   {
     name: "NTI Cafeteria",
     description:
-      "A cafeteria web app built with React and Vite, featuring a menu display and an admin dashboard for managing products and orders.",
+      "A real-time school info site built during my Ekofusion internship: live bus and train arrivals, today's lunch menu and sick-teacher notifications — with a menu display and an admin dashboard for managing products and orders, built with React and REST APIs.",
     tags: [
       { name: "React", color: "text-cyan-500" },
+      { name: "REST API", color: "text-purple-500" },
       { name: "Vite", color: "text-violet-500" },
       { name: "JavaScript", color: "text-pink-500" },
     ],
     image: nti,
     source_code_link: "https://github.com/Michellissa/NTI-Cafeteria",
     live_link: "https://Michellissa.github.io/NTI-Cafeteria/",
-  },
-  {
-    name: "School Info Board",
-    description:
-      "An internal real-time info site built during my Ekofusion internship: live bus and train arrivals, today's school lunch and sick-teacher notifications for the whole school — powered by React and REST APIs.",
-    tags: [
-      { name: "React", color: "text-cyan-500" },
-      { name: "REST API", color: "text-purple-500" },
-      { name: "JavaScript", color: "text-pink-500" },
-      { name: "Internship", color: "text-slate-500" },
-    ],
-    image: infosite,
   },
   {
     name: "Mind Monitor EEG",
