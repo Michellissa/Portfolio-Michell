@@ -99,10 +99,11 @@ const Hero = () => {
           </a>
           </div>
         </Reveal>
-      </div>
-
-      <Reveal direction="left" delay={200}>
-        <div className="hidden lg:flex absolute right-8 xl:right-16 top-1/2 -translate-y-1/2 flex-col items-center gap-4">
+        <Reveal
+          delay={200}
+          direction="left"
+          className="hidden lg:block absolute right-8 xl:right-16 top-1/2 -translate-y-1/2"
+        >
           <div className="relative">
             <div className="absolute inset-0 bg-accent/20 rounded-full blur-2xl scale-110" />
             <img
@@ -111,8 +112,8 @@ const Hero = () => {
               className="relative w-72 xl:w-80 h-72 xl:h-80 object-cover rounded-full border-4 border-white shadow-2xl"
             />
           </div>
-        </div>
-      </Reveal>
+        </Reveal>
+      </div>
 
       <a
         href="#about"
