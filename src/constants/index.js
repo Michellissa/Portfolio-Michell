@@ -180,6 +180,7 @@ export const projects = [
     ],
     image: flowtime,
     source_code_link: "https://github.com/Michellissa/Flowtime",
+    live_link: "https://Michellissa.github.io/flowtime-frontend/",
   },
   {
     name: "NTI Cafeteria",
@@ -192,6 +193,7 @@ export const projects = [
     ],
     image: cafeteria,
     source_code_link: "https://github.com/Michellissa/NTI-Cafeteria",
+    live_link: "https://Michellissa.github.io/NTI-Cafeteria/",
   },
   {
     name: "Mind Monitor EEG",
