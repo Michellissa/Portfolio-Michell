@@ -32,6 +32,7 @@ import cafeteria from "./projects/cafeteria.png";
 import eeg from "./projects/eeg.jpg";
 import liquid from "./projects/liquid.webp";
 import flowtime from "./projects/flowtime.svg";
+import infosite from "./projects/infosite.svg";
 
 export {
   backend,
@@ -65,4 +66,5 @@ export {
   eeg,
   liquid,
   flowtime,
+  infosite,
 };

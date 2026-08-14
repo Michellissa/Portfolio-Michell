@@ -26,15 +26,17 @@ const Projects = () => {
                     alt={project.name}
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
-                  <a
-                    href={project.source_code_link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-lg flex items-center justify-center shadow-md hover:bg-accent transition-colors"
-                    aria-label={`${project.name} source code`}
-                  >
-                    <img src={github} alt="GitHub" className="w-5 h-5 invert" />
-                  </a>
+                  {project.source_code_link && (
+                    <a
+                      href={project.source_code_link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur rounded-lg flex items-center justify-center shadow-md hover:bg-accent transition-colors"
+                      aria-label={`${project.name} source code`}
+                    >
+                      <img src={github} alt="GitHub" className="w-5 h-5 invert" />
+                    </a>
+                  )}
                 </div>
 
                 <div className="p-6 flex flex-col flex-1">

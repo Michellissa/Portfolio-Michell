@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
 import useLenis from "./hooks/useLenis";
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 };
