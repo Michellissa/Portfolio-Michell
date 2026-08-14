@@ -79,11 +79,28 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <button
-          className="sm:hidden flex flex-col justify-center items-center gap-1.5 w-9 h-9"
-          onClick={() => setToggle(!toggle)}
-          aria-label="Toggle menu"
-        >
+        <div className="flex items-center gap-2 sm:hidden">
+          <button
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+            className="w-9 h-9 rounded-lg border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:border-accent hover:text-accent transition-colors"
+          >
+            {theme === "dark" ? (
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.4 6.4l-.7-.7M6.3 6.3l-.7-.7m12.8 0l-.7.7M6.3 17.7l-.7.7M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            ) : (
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M20.4 14.5A8.5 8.5 0 019.5 3.6a7 7 0 1010.9 10.9z" />
+              </svg>
+            )}
+          </button>
+
+          <button
+            className="flex flex-col justify-center items-center gap-1.5 w-9 h-9"
+            onClick={() => setToggle(!toggle)}
+            aria-label="Toggle menu"
+          >
           <span
             className={`bg-primary dark:bg-white h-0.5 w-6 rounded transition-transform ${
               toggle ? "rotate-45 translate-y-2" : ""
@@ -100,6 +117,7 @@ const Navbar = () => {
             }`}
           />
         </button>
+      </div>
       </div>
 
       {toggle && (
