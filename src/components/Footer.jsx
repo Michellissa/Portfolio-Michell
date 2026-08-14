@@ -3,11 +3,11 @@ import { socials } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary dark:bg-slate-950 text-slate-400">
+    <footer className="bg-white dark:bg-slate-950 border-t border-slate-100 dark:border-slate-800 text-slate-500 dark:text-slate-400">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
-          <p className="text-white font-semibold text-lg">
-            Michell<span className="text-accent-light">.dev</span>
+          <p className="text-primary dark:text-white font-semibold text-lg">
+            Michell<span className="text-accent">.dev</span>
           </p>
           <p className="mt-1 text-sm">Web Developer &amp; Full-Stack Enthusiast</p>
         </div>
@@ -17,14 +17,14 @@ const Footer = () => {
             href={socials.github}
             target="_blank"
             rel="noreferrer"
-            className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-accent transition-colors"
+            className="w-10 h-10 bg-slate-100 dark:bg-white/10 rounded-lg flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-accent hover:text-white transition-colors"
             aria-label="GitHub"
           >
-            <img src={github} alt="GitHub" className="w-5 h-5" />
+            <img src={github} alt="GitHub" className="w-5 h-5 invert dark:invert-0" />
           </a>
           <a
             href={`mailto:${socials.email}`}
-            className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-accent transition-colors"
+            className="w-10 h-10 bg-slate-100 dark:bg-white/10 rounded-lg flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-accent hover:text-white transition-colors"
             aria-label="Email"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
