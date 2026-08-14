@@ -180,7 +180,7 @@ export const projects = [
     ],
     image: flowtime,
     source_code_link: "https://github.com/Michellissa/Flowtime",
-    live_link: "https://Michellissa.github.io/flowtime-frontend/",
+    live_link: "https://Michellissa.github.io/Flowtime/",
   },
   {
     name: "NTI Cafeteria",
