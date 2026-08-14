@@ -106,8 +106,8 @@ const Contact = () => {
               <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
                 <h3 className="text-primary dark:text-white font-semibold">Currently</h3>
                 <p className="mt-2 text-slate-600 dark:text-slate-400">
-                  Studying automation at Kunskapsgruppen after graduating from NTI
-                  Södertörn (Teknik 4).
+                  Studying automation at Kunskapsgruppen after an internship at
+                  Ekofusion and graduating from NTI Södertörn (Teknik 4).
                 </p>
               </div>
 

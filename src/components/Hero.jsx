@@ -35,15 +35,16 @@ const Hero = () => {
 
         <Reveal direction="left" delay={250}>
           <h2 className="mt-3 text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-700 dark:text-slate-200">
-            Web Developer &amp; Full-Stack Enthusiast
+            Full-Stack Developer
           </h2>
         </Reveal>
 
         <Reveal delay={350}>
           <p className="mt-6 max-w-2xl text-base sm:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            I build modern, responsive web applications with a focus on user experience
-            and clean code. Graduate of NTI Södertörn (Teknik 4) and currently
-            studying automation at Kunskapsgruppen.
+            I build modern web applications with React, TypeScript and Node.js,
+            and I've shipped e-commerce solutions on WordPress, Magento and
+            OpenCart — plus real-time data apps powered by REST APIs. NTI
+            Södertörn (Teknik 4) graduate, now studying automation.
           </p>
         </Reveal>
 

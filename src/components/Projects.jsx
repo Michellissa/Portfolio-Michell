@@ -10,8 +10,9 @@ const Projects = () => {
           <p className="section-label">Portfolio</p>
           <h2 className="section-title">Featured projects.</h2>
           <p className="mt-6 max-w-3xl text-lg leading-relaxed dark:text-slate-300">
-            A selection of projects I've built while learning and growing as a
-            developer. Each one taught me something new about building for the web.
+            From full-stack task management to real-time EEG visualization —
+            a selection of projects that show how I work with modern stacks
+            and real-world problems.
           </p>
         </Reveal>
 

@@ -12,11 +12,14 @@ const About = () => {
 
         <Reveal delay={150}>
           <p className="mt-6 max-w-3xl text-lg leading-relaxed dark:text-slate-300">
-            I'm a passionate developer with strong skills in Python, JavaScript and
-            frameworks like React. I enjoy creating interactive, user-friendly
-            experiences and solving real-world problems with code. Whether it's
-            frontend design or dynamic interfaces, I aim to build modern and
-            efficient solutions. Let's bring your ideas to life together!
+            I'm a full-stack developer who likes building things that actually
+            get used. At Ekofusion I worked with e-commerce platforms like
+            WordPress, Magento and OpenCart, automated workflows with robotics
+            software, and built a real-time info site (bus and train arrivals,
+            school lunch, sick teachers) with React and REST APIs. Before that I
+            designed REST APIs and internal tools at Frisörgrossen. Right now
+            I'm deepening my knowledge in automation at Kunskapsgruppen while
+            keeping my web development skills sharp.
           </p>
         </Reveal>
 
