@@ -27,11 +27,21 @@ const Testimonial = () => {
             </blockquote>
 
             <div className="mt-8 flex items-center gap-4">
-              <img
-                src={testimonial.image}
-                alt={testimonial.name}
-                className="w-14 h-14 rounded-full object-cover border-2 border-white shadow-card"
-              />
+              {testimonial.image ? (
+                <img
+                  src={testimonial.image}
+                  alt={testimonial.name}
+                  className="w-14 h-14 rounded-full object-cover border-2 border-white shadow-card"
+                />
+              ) : (
+                <div className="w-14 h-14 rounded-full bg-accent text-white flex items-center justify-center font-bold text-lg">
+                  {testimonial.name
+                    .split(" ")
+                    .map((n) => n[0])
+                    .join("")
+                    .slice(0, 2)}
+                </div>
+              )}
               <div>
                 <p className="text-primary font-semibold">{testimonial.name}</p>
                 <p className="text-sm text-slate-500">

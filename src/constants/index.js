@@ -10,11 +10,8 @@
   reactjs,
   tailwind,
   nodejs,
-  git,
-  threejs,
-  redux,
   mongodb,
-  docker,
+  git,
   figma,
   nti,
   praktik,
@@ -63,17 +60,14 @@ export const technologies = [
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
   { name: "React JS", icon: reactjs },
-  { name: "Redux Toolkit", icon: redux },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
   { name: "MongoDB", icon: mongodb },
-  { name: "Three JS", icon: threejs },
   { name: ".NET / C#", icon: NET },
   { name: "REST APIs", initials: "R", color: "bg-blue-100 text-blue-700" },
   { name: "Bash", initials: "B", color: "bg-slate-200 text-slate-800" },
   { name: "Linux", initials: "L", color: "bg-amber-100 text-amber-700" },
   { name: "Git", icon: git },
-  { name: "Docker", icon: docker },
   { name: "Figma", icon: figma },
   { name: "WordPress", initials: "W", color: "bg-sky-100 text-sky-700" },
   { name: "Magento", initials: "M", color: "bg-orange-100 text-orange-700" },
@@ -90,7 +84,7 @@ export const experiences = [
       "Created a digital inventory system for a retail environment.",
       "Automated the inventory flow and streamlined logistics handling.",
       "Handled payments and financial transactions.",
-      "Efficiently executed assigned development tasks.",
+      "Managed product data with JSON-based storage and interactive chart views.",
     ],
   },
   {
@@ -168,57 +162,20 @@ export const testimonials = [
     name: "Lemar Hanna",
     designation: "Supervisor",
     company: "Frisörgrossen",
-    image:
-      "https://media.licdn.com/dms/image/v2/D4D35AQH5DkIG5J9Fiw/profile-framedphoto-shrink_800_800/B4DZfwfzmVGsAo-/0/1752086559505?e=1754773200&v=beta&t=H9G7MIETFo3464hxYz-1XpHTw6BIlGSgzR_-yNURoMw",
   },
 ];
 
 export const projects = [
   {
-    name: "Car Rent",
-    description:
-      "An interactive website with a landing page and contact form for car rental inquiries. Responsive design, clean layout and smooth animations - showcasing modern web development skills.",
-    tags: [
-      { name: "HTML", color: "text-blue-500" },
-      { name: "CSS", color: "text-emerald-500" },
-      { name: "JavaScript", color: "text-pink-500" },
-    ],
-    image: car,
-    source_code_link: "https://github.com/Michellissa/bil-hemsida",
-  },
-  {
-    name: "Image Gallery",
-    description:
-      "An image gallery website built with HTML, CSS and JavaScript. Clean design, animated text and interactive features like scroll effects and a scroll-to-top button. Fully responsive and user-friendly.",
-    tags: [
-      { name: "HTML", color: "text-blue-500" },
-      { name: "CSS", color: "text-emerald-500" },
-      { name: "JavaScript", color: "text-pink-500" },
-    ],
-    image: nice,
-    source_code_link: "https://github.com/Michellissa/portfolio-prototyp",
-  },
-  {
-    name: "Inventory System",
-    description:
-      "An inventory management system built with HTML, CSS and JavaScript. Users can search, add and view products, with data loaded from a JSON file and displayed in a table. Includes two interactive Chart.js diagrams for stock and sales.",
-    tags: [
-      { name: "HTML", color: "text-blue-500" },
-      { name: "CSS", color: "text-emerald-500" },
-      { name: "JavaScript", color: "text-pink-500" },
-      { name: "Chart.js", color: "text-purple-500" },
-    ],
-    image: lager,
-    source_code_link: "https://github.com/Michellissa/Michells-lager",
-  },
-  {
     name: "Flowtime",
     description:
-      "A full-stack task and schedule management app built with TypeScript. Features user authentication, task tracking and scheduling with a REST API backend and a React frontend.",
+      "Full-stack task and schedule management app. TypeScript frontend with user authentication (JWT), task tracking and scheduling, backed by an Express + MongoDB (Mongoose) REST API.",
     tags: [
       { name: "TypeScript", color: "text-blue-500" },
       { name: "React", color: "text-cyan-500" },
       { name: "Node.js", color: "text-emerald-500" },
+      { name: "Express", color: "text-amber-500" },
+      { name: "MongoDB", color: "text-green-600" },
       { name: "REST API", color: "text-purple-500" },
     ],
     image: flowtime,
@@ -259,6 +216,43 @@ export const projects = [
     ],
     image: liquid,
     source_code_link: "https://github.com/Michellissa/Liquidproject",
+  },
+  {
+    name: "Car Rent",
+    description:
+      "An interactive website with a landing page and contact form for car rental inquiries. Responsive design, clean layout and smooth animations - showcasing modern web development skills.",
+    tags: [
+      { name: "HTML", color: "text-blue-500" },
+      { name: "CSS", color: "text-emerald-500" },
+      { name: "JavaScript", color: "text-pink-500" },
+    ],
+    image: car,
+    source_code_link: "https://github.com/Michellissa/bil-hemsida",
+  },
+  {
+    name: "Image Gallery",
+    description:
+      "An image gallery website built with HTML, CSS and JavaScript. Clean design, animated text and interactive features like scroll effects and a scroll-to-top button. Fully responsive and user-friendly.",
+    tags: [
+      { name: "HTML", color: "text-blue-500" },
+      { name: "CSS", color: "text-emerald-500" },
+      { name: "JavaScript", color: "text-pink-500" },
+    ],
+    image: nice,
+    source_code_link: "https://github.com/Michellissa/portfolio-prototyp",
+  },
+  {
+    name: "Inventory System",
+    description:
+      "An inventory management system built with HTML, CSS and JavaScript. Users can search, add and view products, with data loaded from a JSON file and displayed in a table. Includes two interactive Chart.js diagrams for stock and sales.",
+    tags: [
+      { name: "HTML", color: "text-blue-500" },
+      { name: "CSS", color: "text-emerald-500" },
+      { name: "JavaScript", color: "text-pink-500" },
+      { name: "Chart.js", color: "text-purple-500" },
+    ],
+    image: lager,
+    source_code_link: "https://github.com/Michellissa/Michells-lager",
   },
 ];
 
