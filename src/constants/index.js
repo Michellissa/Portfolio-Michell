@@ -221,7 +221,7 @@ export const projects = [
   {
     name: "Car Rent",
     description:
-      "An interactive website with a landing page and contact form for car rental inquiries. Responsive design, clean layout and smooth animations - showcasing modern web development skills.",
+      "One of my earlier projects — a responsive car rental landing page with a contact form, built with vanilla HTML, CSS and JavaScript. It shows the foundations I built on: clean layout, smooth animations and mobile-friendly design.",
     tags: [
       { name: "HTML", color: "text-blue-500" },
       { name: "CSS", color: "text-emerald-500" },
@@ -233,7 +233,7 @@ export const projects = [
   {
     name: "Image Gallery",
     description:
-      "An image gallery website built with HTML, CSS and JavaScript. Clean design, animated text and interactive features like scroll effects and a scroll-to-top button. Fully responsive and user-friendly.",
+      "An early project focused on interactivity — an image gallery with scroll effects, animated text and a scroll-to-top button, built with HTML, CSS and JavaScript. A stepping stone toward the interactive interfaces I build today.",
     tags: [
       { name: "HTML", color: "text-blue-500" },
       { name: "CSS", color: "text-emerald-500" },
@@ -245,7 +245,7 @@ export const projects = [
   {
     name: "Inventory System",
     description:
-      "An inventory management system built with HTML, CSS and JavaScript. Users can search, add and view products, with data loaded from a JSON file and displayed in a table. Includes two interactive Chart.js diagrams for stock and sales.",
+      "An early take on data-driven interfaces — a product management app with searchable tables, JSON data loading and interactive Chart.js diagrams for stock and sales, built with vanilla JavaScript.",
     tags: [
       { name: "HTML", color: "text-blue-500" },
       { name: "CSS", color: "text-emerald-500" },
