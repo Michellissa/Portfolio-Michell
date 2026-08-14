@@ -3,6 +3,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import python from "./python.png";
 import github from "./github.png";
+import logo from "./logo.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -37,6 +38,7 @@ export {
   web,
   python,
   github,
+  logo,
   css,
   docker,
   figma,

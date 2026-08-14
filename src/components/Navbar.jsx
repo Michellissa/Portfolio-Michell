@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
+import logo from "../assets/logo.png";
 
 const NAV_OFFSET = 80;
 
@@ -33,9 +34,11 @@ const Navbar = () => {
           className="flex items-center gap-2"
           onClick={(e) => handleNavClick(e, "home")}
         >
-          <span className="w-9 h-9 rounded-lg bg-accent text-white flex items-center justify-center font-bold text-lg">
-            M
-          </span>
+          <img
+            src={logo}
+            alt="Michell logo"
+            className="h-9 w-auto"
+          />
           <span className="text-primary font-bold text-lg">
             Michell<span className="text-accent">.dev</span>
           </span>
