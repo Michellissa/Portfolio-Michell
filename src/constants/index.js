@@ -153,6 +153,7 @@ export const contactInfo = {
   email: "michellissa5@gmail.com",
   phone: "+46 73 425 76 43",
   github: "https://github.com/Michellissa",
+  linkedin: "https://www.linkedin.com/in/michell-issa-9884322ba/",
 };
 
 export const testimonials = [
@@ -272,5 +273,6 @@ export const projects = [
 
 export const socials = {
   github: "https://github.com/Michellissa",
+  linkedin: "https://www.linkedin.com/in/michell-issa-9884322ba/",
   email: "michellissa5@gmail.com",
 };

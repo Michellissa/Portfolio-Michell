@@ -104,6 +104,18 @@ const Contact = () => {
               </div>
 
               <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
+                <h3 className="text-primary dark:text-white font-semibold">LinkedIn</h3>
+                <a
+                  href={socials.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-2 block text-accent font-medium hover:underline break-all"
+                >
+                  linkedin.com/in/michell-issa
+                </a>
+              </div>
+
+              <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-6 shadow-card">
                 <h3 className="text-primary dark:text-white font-semibold">Currently</h3>
                 <p className="mt-2 text-slate-600 dark:text-slate-400">
                   Studying automation at Kunskapsgruppen after an internship at
