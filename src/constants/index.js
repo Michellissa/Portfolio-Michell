@@ -82,29 +82,6 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "Developer Intern",
-    company_name: "Ekofusion",
-    icon: logo,
-    date: "Jan 2026 - May 2026",
-    points: [
-      "Worked with WordPress, Magento and OpenCart for e-commerce and web solutions.",
-      "Automated processes with robot-based automation.",
-      "Built a real-time info site (bus/train arrivals, school lunch, sick teachers) using React and REST APIs.",
-      "Developed the Mind Monitor EEG project in Python.",
-    ],
-  },
-  {
-    title: "Fullstack Developer",
-    company_name: "Frisörgrossen",
-    icon: praktik,
-    date: "Jan 2024 - Jan 2025",
-    points: [
-      "Developed internal web applications using React, TypeScript and Python.",
-      "Designed REST APIs for database handling and automation.",
-      "Improved the user experience and performance of the company's internal systems.",
-    ],
-  },
-  {
     title: "Systems Developer",
     company_name: "Queen Nut & Sweet",
     icon: kod,
@@ -128,6 +105,17 @@ export const experiences = [
     ],
   },
   {
+    title: "Fullstack Developer",
+    company_name: "Frisörgrossen",
+    icon: praktik,
+    date: "Jan 2024 - Jan 2025",
+    points: [
+      "Developed internal web applications using React, TypeScript and Python.",
+      "Designed REST APIs for database handling and automation.",
+      "Improved the user experience and performance of the company's internal systems.",
+    ],
+  },
+  {
     title: "Upper Secondary Engineer (Teknik 4)",
     company_name: "NTI Södertörn",
     icon: nti,
@@ -135,6 +123,18 @@ export const experiences = [
     points: [
       "Completed a one-year specialization in software development (Gymnasieingenjör).",
       "Focus on advanced programming, systems development and project management.",
+    ],
+  },
+  {
+    title: "Developer Intern",
+    company_name: "Ekofusion",
+    icon: logo,
+    date: "Jan 2026 - May 2026",
+    points: [
+      "Worked with WordPress, Magento and OpenCart for e-commerce and web solutions.",
+      "Automated processes with robot-based automation.",
+      "Built a real-time info site (bus/train arrivals, school lunch, sick teachers) using React and REST APIs.",
+      "Developed the Mind Monitor EEG project in Python.",
     ],
   },
   {
