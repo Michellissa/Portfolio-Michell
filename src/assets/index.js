@@ -31,7 +31,9 @@ import lager from "./lager.jpg";
 import cafeteria from "./projects/cafeteria.png";
 import eeg from "./projects/eeg.jpg";
 import liquid from "./projects/liquid.webp";
-import flowtime from "./projects/flowtime.svg";
+import flowtime from "./projects/flowtime.png";
+import ntiCard from "./projects/nti-card.png";
+import ljusetsbarn from "./projects/ljusetsbarn.png";
 import infosite from "./projects/infosite.svg";
 
 export {
@@ -66,5 +68,7 @@ export {
   eeg,
   liquid,
   flowtime,
+  ntiCard,
+  ljusetsbarn,
   infosite,
 };

@@ -24,6 +24,8 @@
   eeg,
   liquid,
   flowtime,
+  ntiCard,
+  ljusetsbarn,
 } from "../assets";
 
 export const navLinks = [
@@ -192,9 +194,23 @@ export const projects = [
       { name: "Vite", color: "text-violet-500" },
       { name: "JavaScript", color: "text-pink-500" },
     ],
-    image: nti,
+    image: ntiCard,
     source_code_link: "https://github.com/Michellissa/NTI-Cafeteria",
     live_link: "https://Michellissa.github.io/NTI-Cafeteria/",
+  },
+  {
+    name: "Ljusets Barn",
+    description:
+      "A full-stack e-commerce storefront for a gift and interior shop: product catalog with search and categories, favorites, cart and Stripe checkout, plus an admin panel for orders, products and messages — powered by Supabase.",
+    tags: [
+      { name: "React", color: "text-cyan-500" },
+      { name: "TypeScript", color: "text-blue-500" },
+      { name: "Supabase", color: "text-emerald-500" },
+      { name: "Stripe", color: "text-violet-500" },
+    ],
+    image: ljusetsbarn,
+    source_code_link: "https://github.com/Michellissa/ljusetsbarn12",
+    live_link: "https://ljusetsbarn12.vercel.app/",
   },
   {
     name: "Mind Monitor EEG",
