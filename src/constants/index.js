@@ -26,6 +26,7 @@
   flowtime,
   ntiCard,
   ljusetsbarn,
+  vanessasdack,
 } from "../assets";
 
 export const navLinks = [
@@ -211,6 +212,20 @@ export const projects = [
     image: ljusetsbarn,
     source_code_link: "https://github.com/Michellissa/ljusetsbarn12",
     live_link: "https://ljusetsbarn12.vercel.app/",
+  },
+  {
+    name: "Vanessas Däck",
+    description:
+      "A full-stack tyre shop web panel: vanilla HTML/CSS/JS storefront with product listings, cart and checkout, customer accounts, a winter tyre size selector and an admin panel — backed by a dependency-free Node.js server with JSON storage and automatic inventory sync from the shop's existing site.",
+    tags: [
+      { name: "HTML", color: "text-blue-500" },
+      { name: "CSS", color: "text-emerald-500" },
+      { name: "JavaScript", color: "text-pink-500" },
+      { name: "Node.js", color: "text-green-500" },
+    ],
+    image: vanessasdack,
+    source_code_link: "https://github.com/Michellissa/Vanessasd-ck",
+    live_link: "https://vanessasademo-71rq.vercel.app/",
   },
   {
     name: "Mind Monitor EEG",

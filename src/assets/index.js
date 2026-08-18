@@ -34,6 +34,7 @@ import liquid from "./projects/liquid.webp";
 import flowtime from "./projects/flowtime.png";
 import ntiCard from "./projects/nti-card.png";
 import ljusetsbarn from "./projects/ljusetsbarn.png";
+import vanessasdack from "./projects/vanessasdack.svg";
 import infosite from "./projects/infosite.svg";
 
 export {
@@ -70,5 +71,6 @@ export {
   flowtime,
   ntiCard,
   ljusetsbarn,
+  vanessasdack,
   infosite,
 };
